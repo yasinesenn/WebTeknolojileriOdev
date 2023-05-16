@@ -1,0 +1,158 @@
+/***************************          Layout            ****************************/
+
+.zoom {
+    overflow: hidden;
+    position: relative;
+}
+
+.img-zoom {
+    display: block;
+    transition: transform .5s ease;
+}
+
+.custom-c :hover  {
+    transform: scale(1.2);
+}
+
+.weather-c{
+width: 90%;
+max-width: 470px;
+background: linear-gradient(135deg,#564523,#ede3d6);
+color: #fff;
+margin: 100px auto 9;
+border-radius: 20px;
+padding: 40px 35px;
+text-align: center;
+
+
+}
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.nav-item{
+
+font-size: large;
+font-weight: 499;
+
+}
+
+body{
+
+font-family:Arial, Helvetica, sans-serif
+
+}
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display:flex;
+    color: rgb(136, 110, 87);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #dddd;
+  }
+  .bg-nav{
+    background-color: #e4dcd4;
+    color: #7b0d0d;
+  }
+ 
+.border1{
+  border-style: double;
+}
+
+.border2{
+  border-style: inset;
+}
+
+#cover {
+  background-size: cover;
+  background-position: left center;
+  background-attachment: fixed;
+  height: 13vh;
+}
+
+.table{
+  color:#000000 !important;
+} 
+
+.search{
+  width: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search input{
+  border: 0;
+  outline: 0;
+  background-color: #ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+
+}
+
+.search button{
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.search button img{
+  width: 16px;
+
+}
+
+.weather icon{
+width: 170px;
+margin-top: 30px;
+}
+
+.weather h1{
+  font-size: 80px;
+  font-weight: 500;
+}
+.weather h2{
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+.col{
+  display: flex;
+  align-items: center;
+  text-align: left;
+
+}
+.col img{
+  width: 40px;
+  margin-right: 10px;
+
+}
+
+.nem, .rüzgar{
+font-size: 28px;
+margin-top: -6px;
+}
